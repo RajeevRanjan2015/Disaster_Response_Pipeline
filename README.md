@@ -27,7 +27,14 @@ There are three components of this project:
     
 2. ML Pipeline
 
-    File _models/train_classifier.py_ contains machine learning pipeline
+    File _models/train_classifier.py_ contains machine learning pipeline that has below functionalities:
+    
+    1. Loads data from the SQLite database
+    2. Splits the dataset into training and test sets
+    3. Builds a text processing and machine learning pipeline
+    4. Trains and tunes a model using GridSearchCV
+    5. Outputs results on the test set
+    6. Exports the final model as a pickle file
     
     
 3. Flask Web App
@@ -72,4 +79,6 @@ There are three components of this project:
 
 </pre>
 
+## Acknowledgement:
 
+I would like to thank "Figure Eight" for providing such a wonderful data set to work with and Udacity for platform and guidance.
