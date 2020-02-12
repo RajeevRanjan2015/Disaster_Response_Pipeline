@@ -18,7 +18,11 @@ There are three components of this project:
 
 1. ETL Pipeline
 
-    File _data/process_data.py_ contains data cleaning pipeline that:
+    File _data/process_data.py_ contains data cleaning pipeline that has below functionalities:
+    Loads the messages and categories datasets
+    Merges the two datasets
+    Cleans the data
+    Stores it in a SQLite database
     
 2. ML Pipeline
 
@@ -28,7 +32,7 @@ There are three components of this project:
 3. Flask Web App
 
 
-### Instructions to run:
+## 3. Instructions to run:
 
 1. Run the following commands in the project's root directory to set up your database and model.
 
@@ -43,7 +47,7 @@ There are three components of this project:
 3. Go to http://0.0.0.0:3001/
 
 
-## 5. Files
+## 4. Files in the Repo:
 
 <pre>
 .
@@ -62,5 +66,9 @@ There are three components of this project:
 |
 ├── models
 │   └── train_classifier.py-----------# PERFORMS CLASSIFICATION TASK
+|
+|-- README.md : You can say document about the project
 
 </pre>
+
+
