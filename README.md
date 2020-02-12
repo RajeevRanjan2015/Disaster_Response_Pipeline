@@ -19,10 +19,11 @@ There are three components of this project:
 1. ETL Pipeline
 
     File _data/process_data.py_ contains data cleaning pipeline that has below functionalities:
-    Loads the messages and categories datasets
-    Merges the two datasets
-    Cleans the data
-    Stores it in a SQLite database
+    
+    1. Loads the messages and categories datasets
+    2. Merges the two datasets
+    3. Cleans the data
+    4. Stores it in a SQLite database
     
 2. ML Pipeline
 
